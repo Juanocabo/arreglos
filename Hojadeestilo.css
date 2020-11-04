@@ -1,0 +1,68 @@
+body{
+    background-image: url("imagenes/field-1728099.jpg");
+}
+h1{
+    color: blue;
+}
+h3{
+    font-style: italic; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+    background-color: #daa520;
+}
+p{
+    font-size: 120%;
+}
+em,strong{
+    font-size: 121%;
+}
+
+.enlace{
+    text-decoration: dashed; 
+    background-color: lightgreen;
+}
+.enlace:hover{
+    background-color: crimson;
+}
+.centro{
+   text-align: center; /*para los textos alineados al centro*/
+}
+.izq{
+    text-align: left; /*para los textos alineados a la ziquierda*/
+}
+.dch{
+    text-align: right; /*para los textos alineados a la derecha*/
+}
+div{
+     padding-left: 350px;  /*para agrupar la tabla y titulo de los precios*/
+     background-color: lightpink; 
+     width: 35%;
+     margin-left: 300px;
+     border: 6px solid chocolate;
+     border-style: groove;
+     border-radius: 8px;
+}
+table{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 8px;
+    border-style: double;
+    border-width: 3px;
+    border-color: black;
+}
+th, td{
+    border-style: groove;
+    border-width: 1px;
+}
+ol{
+    list-style-type: upper-roman; font-size: 110%;
+}
+ul{
+    list-style: square; font-size: 110%;
+}
+.imgdch{
+    float: right;/*para las iamgenes alineadas a la derecha*/
+}
+.imgizq{
+    float: left; /*para las iamgenes alineadas a la izquierda*/
+}
